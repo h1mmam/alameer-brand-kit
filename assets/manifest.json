@@ -1,0 +1,271 @@
+{
+ "note": "Paths relative to repo root. Everything here is safe to use in marketing content. See brand/BRAND.md for rules.",
+ "assets": [
+  {
+   "path": "brand/logos/logo-circle.png",
+   "width": 819,
+   "height": 819,
+   "bytes": 887978,
+   "description": "Primary logo: circular badge (gold chevron mark + ALAMEER wordmark, dark photo background). Use as circle with gold ring."
+  },
+  {
+   "path": "brand/logos/app-icon-1024.jpg",
+   "width": 1024,
+   "height": 1024,
+   "bytes": 196409,
+   "description": "Store/app icon 1024px (JPEG)."
+  },
+  {
+   "path": "brand/logos/favicon-819.png",
+   "width": 819,
+   "height": 819,
+   "bytes": 899307,
+   "description": "Square logo, RGBA (same art as logo-circle)."
+  },
+  {
+   "path": "brand/logos/social-preview-1200x630.png",
+   "width": 1200,
+   "height": 630,
+   "bytes": 522102,
+   "description": "Open-Graph/link preview card 1200x630."
+  },
+  {
+   "path": "brand/logos/splash-dark.png",
+   "width": 819,
+   "height": 819,
+   "bytes": 825543,
+   "description": "App splash logo for dark mode."
+  },
+  {
+   "path": "brand/logos/splash-light.png",
+   "width": 819,
+   "height": 819,
+   "bytes": 825543,
+   "description": "App splash logo for light mode."
+  },
+  {
+   "path": "brand/badges/app-store-badge.jpg",
+   "width": 820,
+   "height": 317,
+   "bytes": 32681,
+   "description": "'Download on the App Store' badge (white margin - crop to rounded black pill, see .sb-app in brand.css)."
+  },
+  {
+   "path": "brand/badges/google-play-badge.png",
+   "width": 1920,
+   "height": 670,
+   "bytes": 167218,
+   "description": "'Get it on Google Play' badge, 1920x670 RGBA with soft shadow (crop via .sb-gp)."
+  },
+  {
+   "path": "brand/badges/google-play-badge.webp",
+   "width": 1920,
+   "height": 670,
+   "bytes": 49994,
+   "description": "Original webp of the Google Play badge."
+  },
+  {
+   "path": "brand/social/whatsapp.png",
+   "width": 64,
+   "height": 64,
+   "bytes": 9812,
+   "description": "WhatsApp glyph."
+  },
+  {
+   "path": "brand/social/instagram.png",
+   "width": 64,
+   "height": 64,
+   "bytes": 9859,
+   "description": "Instagram glyph."
+  },
+  {
+   "path": "brand/social/facebook.png",
+   "width": 64,
+   "height": 64,
+   "bytes": 9472,
+   "description": "Facebook glyph."
+  },
+  {
+   "path": "brand/social/google_icon.png",
+   "width": 48,
+   "height": 48,
+   "bytes": 1305,
+   "description": "Google 'G' (sign-in)."
+  },
+  {
+   "path": "brand/backgrounds/background.jpg",
+   "width": 1024,
+   "height": 1024,
+   "bytes": 1311888,
+   "description": "App brand background texture (dark, gold geometry)."
+  },
+  {
+   "path": "brand/backgrounds/background.png",
+   "width": 1024,
+   "height": 1024,
+   "bytes": 1354577,
+   "description": "Same, PNG 1024x1024."
+  },
+  {
+   "path": "brand/backgrounds/maintap.png",
+   "width": 1024,
+   "height": 1024,
+   "bytes": 1399075,
+   "description": "Main tab artwork 1024x1024."
+  },
+  {
+   "path": "brand/backgrounds/miantap2.png",
+   "width": 722,
+   "height": 310,
+   "bytes": 126156,
+   "description": "Tab artwork 722x310 RGBA."
+  },
+  {
+   "path": "assets/photos/machine-bobcat-e19.jpg",
+   "width": 902,
+   "height": 748,
+   "bytes": 95748,
+   "description": "Clean photo of a Bobcat E19 mini excavator (from the app listing)."
+  },
+  {
+   "path": "assets/app-screens/all-machines-list-scrolled.jpg",
+   "width": 1290,
+   "height": 2646,
+   "bytes": 403143,
+   "description": "Clean app screenshot 1290x2646 (status bar cropped)."
+  },
+  {
+   "path": "assets/app-screens/all-machines-list-top.jpg",
+   "width": 1290,
+   "height": 2646,
+   "bytes": 578053,
+   "description": "Clean app screenshot 1290x2646 (status bar cropped)."
+  },
+  {
+   "path": "assets/app-screens/home-hero-e17.jpg",
+   "width": 1290,
+   "height": 2646,
+   "bytes": 523210,
+   "description": "Clean app screenshot 1290x2646 (status bar cropped)."
+  },
+  {
+   "path": "assets/app-screens/home-hero-jcb-3cx-2008.jpg",
+   "width": 1290,
+   "height": 2646,
+   "bytes": 387826,
+   "description": "Clean app screenshot 1290x2646 (status bar cropped)."
+  },
+  {
+   "path": "assets/app-screens/home-hero-mini-jcb-2016.jpg",
+   "width": 1290,
+   "height": 2646,
+   "bytes": 516598,
+   "description": "Clean app screenshot 1290x2646 (status bar cropped)."
+  },
+  {
+   "path": "assets/app-screens/home-products-discounts.jpg",
+   "width": 1290,
+   "height": 2646,
+   "bytes": 419692,
+   "description": "Clean app screenshot 1290x2646 (status bar cropped)."
+  },
+  {
+   "path": "assets/app-screens/home-products-scrolled.jpg",
+   "width": 1290,
+   "height": 2646,
+   "bytes": 377917,
+   "description": "Clean app screenshot 1290x2646 (status bar cropped)."
+  },
+  {
+   "path": "assets/app-screens/home-products-tohren-section.jpg",
+   "width": 1290,
+   "height": 2646,
+   "bytes": 413185,
+   "description": "Clean app screenshot 1290x2646 (status bar cropped)."
+  },
+  {
+   "path": "assets/app-screens/machine-details-bobcat-b.jpg",
+   "width": 1290,
+   "height": 2646,
+   "bytes": 264003,
+   "description": "Clean app screenshot 1290x2646 (status bar cropped)."
+  },
+  {
+   "path": "assets/app-screens/machine-details-bobcat.jpg",
+   "width": 1290,
+   "height": 2646,
+   "bytes": 167227,
+   "description": "Clean app screenshot 1290x2646 (status bar cropped)."
+  },
+  {
+   "path": "assets/app-screens-legacy/s1.webp",
+   "width": 921,
+   "height": 2000,
+   "bytes": 170004,
+   "description": "Older app screenshot (webp) used by the 56 s story promo."
+  },
+  {
+   "path": "assets/app-screens-legacy/s10.webp",
+   "width": 921,
+   "height": 2000,
+   "bytes": 165866,
+   "description": "Older app screenshot (webp) used by the 56 s story promo."
+  },
+  {
+   "path": "assets/app-screens-legacy/s11.webp",
+   "width": 921,
+   "height": 2000,
+   "bytes": 205490,
+   "description": "Older app screenshot (webp) used by the 56 s story promo."
+  },
+  {
+   "path": "assets/app-screens-legacy/s12.webp",
+   "width": 921,
+   "height": 2000,
+   "bytes": 225852,
+   "description": "Older app screenshot (webp) used by the 56 s story promo."
+  },
+  {
+   "path": "assets/app-screens-legacy/s13.webp",
+   "width": 921,
+   "height": 2000,
+   "bytes": 59420,
+   "description": "Older app screenshot (webp) used by the 56 s story promo."
+  },
+  {
+   "path": "assets/app-screens-legacy/s2.webp",
+   "width": 921,
+   "height": 2000,
+   "bytes": 143726,
+   "description": "Older app screenshot (webp) used by the 56 s story promo."
+  },
+  {
+   "path": "assets/app-screens-legacy/s3.webp",
+   "width": 921,
+   "height": 2000,
+   "bytes": 134816,
+   "description": "Older app screenshot (webp) used by the 56 s story promo."
+  },
+  {
+   "path": "assets/app-screens-legacy/s5.webp",
+   "width": 921,
+   "height": 2000,
+   "bytes": 252324,
+   "description": "Older app screenshot (webp) used by the 56 s story promo."
+  },
+  {
+   "path": "assets/app-screens-legacy/s6.webp",
+   "width": 921,
+   "height": 2000,
+   "bytes": 124278,
+   "description": "Older app screenshot (webp) used by the 56 s story promo."
+  },
+  {
+   "path": "assets/app-screens-legacy/s8.webp",
+   "width": 921,
+   "height": 2000,
+   "bytes": 175560,
+   "description": "Older app screenshot (webp) used by the 56 s story promo."
+  }
+ ]
+}

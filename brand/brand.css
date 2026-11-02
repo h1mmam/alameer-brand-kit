@@ -1,0 +1,47 @@
+/* Al Ameer Hydraulics - shared design tokens + components for HTML templates (posts, stories, reels).
+   Include with: <link rel="stylesheet" href="../brand/brand.css">  (paths in templates are relative to that file's folder) */
+@font-face{font-family:"AR";src:local("SF Arabic Rounded"),url("file:///System/Library/Fonts/SFArabicRounded.ttf");font-weight:100 900}
+:root{
+  --bg:#0B0B0C;--panel:#1B1B1B;--panel2:#242424;--gold:#F4B300;--gold2:#FFD25E;--muted:#A9A9A9;--danger:#FF3B3B;--wa:#25D366;
+  --glass:linear-gradient(135deg,rgba(26,26,26,.88),rgba(10,10,10,.82));
+  --gold-grad:linear-gradient(145deg,#FFD25E,#F4B300);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:#000}
+body{font-family:"AR","Cairo","Tajawal","Noto Sans Arabic","Geeza Pro","SF Arabic",sans-serif;color:#fff;direction:rtl}
+/* canvas: put your format size on .canvas (e.g. 1080x1350) */
+.canvas{position:relative;overflow:hidden;background:var(--bg)}
+/* background: soft gold glows + logo-style chevrons */
+.bg-glow{position:absolute;border-radius:50%;filter:blur(60px);background:radial-gradient(circle,rgba(244,179,0,.34),transparent 65%)}
+.bg-chev{position:absolute;opacity:.5}
+/* logo chip */
+.logo-chip{border-radius:50%;box-shadow:0 0 0 3px var(--gold),0 10px 34px rgba(0,0,0,.65)}
+/* gold pill badge */
+.badge{display:inline-block;padding:16px 38px;border-radius:60px;background:var(--gold-grad);color:#111;font-weight:900;font-size:50px;box-shadow:0 12px 40px rgba(244,179,0,.5)}
+/* glass keyword card (icon + title + subtitle) */
+.card{display:flex;align-items:center;gap:26px;padding:26px 34px;border-radius:40px;background:var(--glass);border:2.5px solid rgba(244,179,0,.65);box-shadow:0 20px 60px rgba(0,0,0,.6),0 0 60px rgba(244,179,0,.18);backdrop-filter:blur(18px)}
+.card .ic{width:104px;height:104px;border-radius:30px;background:var(--gold-grad);display:flex;align-items:center;justify-content:center;font-size:62px;flex:none}
+.card .tt{font-size:58px;font-weight:900;line-height:1.12}
+.card .sb{font-size:34px;font-weight:600;color:var(--gold2);margin-top:4px}
+/* red "no" stamp: بدون وسطاء / بدون عمولات */
+.stamp{display:inline-flex;align-items:center;gap:20px;padding:16px 38px 16px 30px;border-radius:70px;background:rgba(14,14,14,.86);border:3px solid #ff4d4d;font-size:54px;font-weight:900;box-shadow:0 14px 44px rgba(0,0,0,.6),0 0 40px rgba(255,60,60,.28)}
+.stamp .x{width:70px;height:70px;border-radius:50%;background:#ff3b3b;color:#fff;font-size:44px;display:flex;align-items:center;justify-content:center}
+/* chip */
+.chip{display:inline-flex;align-items:center;gap:18px;padding:20px 32px;border-radius:50px;background:rgba(18,18,18,.9);border:2.5px solid rgba(244,179,0,.7);font-size:44px;font-weight:800;box-shadow:0 14px 44px rgba(0,0,0,.6)}
+.chip b{color:var(--gold2)}
+/* CTA button */
+.cta{display:flex;align-items:center;justify-content:center;gap:22px;height:140px;border-radius:80px;background:var(--gold-grad);color:#111;font-size:66px;font-weight:900;box-shadow:0 20px 70px rgba(244,179,0,.55)}
+/* store badges (use brand/badges/*) */
+.sb-app{height:130px;border-radius:26px;overflow:hidden;background:#000;border:3px solid #fff}
+.sb-app img{height:150%;margin:-17.5px -6%;width:112%;display:block}
+.sb-gp{height:130px;width:450px;overflow:hidden;border-radius:65px}
+.sb-gp img{width:488px;margin:-10px 0 0 -25px;max-width:none;display:block}
+/* iPhone-style frame: <div class="phone"><div class="screen"><img src="app screenshot"></div></div>
+   default 664x1337 (screen 640x1313 = crop of the 1290x2646 app screenshots in assets/app-screens) */
+.phone{position:relative;width:664px;height:1337px;padding:12px;border-radius:72px;background:linear-gradient(145deg,#4a4a4a,#141414 45%,#2a2a2a);box-shadow:0 0 0 3px rgba(244,179,0,.7),0 60px 140px rgba(0,0,0,.85),0 0 160px rgba(244,179,0,.25)}
+.phone .screen{position:relative;width:640px;height:1313px;border-radius:60px;overflow:hidden;background:#000}
+.phone .screen img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.phone .island{position:absolute;top:12px;left:50%;width:142px;height:34px;margin-left:-71px;border-radius:20px;background:#000;z-index:5}
+/* big outlined caption text (readable on any footage) */
+.cap{font-weight:900;font-size:88px;line-height:1.2;color:#fff;text-shadow:-6px -6px 0 rgba(0,0,0,.92),6px -6px 0 rgba(0,0,0,.92),-6px 6px 0 rgba(0,0,0,.92),6px 6px 0 rgba(0,0,0,.92),0 -7px 0 rgba(0,0,0,.92),0 7px 0 rgba(0,0,0,.92),-7px 0 0 rgba(0,0,0,.92),7px 0 0 rgba(0,0,0,.92),0 10px 30px rgba(0,0,0,.7)}
+.cap .on{color:#FFC21A}

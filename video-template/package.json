@@ -1,0 +1,7 @@
+{
+  "name": "alameer-video-template",
+  "private": true,
+  "description": "HTML + headless Chrome frame renderer for Al Ameer Hydraulics reels",
+  "scripts": { "setup": "npm install" },
+  "dependencies": { "ffmpeg-static": "^5.2.0" }
+}
