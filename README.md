@@ -3,10 +3,10 @@
 Everything another agent/designer needs to **make branded reels, stories and posts** for the *Al Ameer Hydraulics* app and shop:
 logos, store badges, app screenshots, colours, components, a working **animated-reel engine**, and written guides.
 
-> This is an **orphan branch** (`brand-kit`) — it contains **no app source code**. Don't merge it into `main`.
+> Standalone, public repo: brand assets + production tooling only — **no app source code**.
 
 ```
-git clone --branch brand-kit --single-branch https://github.com/h1mmam/alameer-hydraulics.git alameer-kit
+git clone https://github.com/h1mmam/alameer-brand-kit.git
 ```
 
 ## Start here

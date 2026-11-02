@@ -9,7 +9,7 @@ You turn raw phone footage / app screenshots into **branded Arabic reels, storie
 4. **Captions must match the speech.** Transcribe with `video-template/tools/transcribe.py`, then proofread by hand; keep timings, fix text.
 5. **Reels:** 1080×1920, 30 fps, ≤ 90 s, keep key content inside y∈[220, 1540] (Instagram UI covers top/bottom), loudness ≈ −15 LUFS, true peak ≤ −1 dB.
 6. Don't commit raw footage, rendered frames, `node_modules/`, `work/` (already in `.gitignore`). Final videos: hand them to the user, don't commit unless asked.
-7. Don't touch `main`/app code. This branch is assets + tooling only.
+7. This repo is assets + tooling only (the app's source code lives in a separate private repo — never ask for or add it here). It is **public**: never commit secrets, API keys, customer data or raw footage.
 
 ## Workflow — reel
 1. Probe clips (`ffprobe`), watch contact sheets, transcribe (word timestamps). Decide a **cut list** in speech order (cut only dead air at clip ends).
